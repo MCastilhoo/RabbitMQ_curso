@@ -1,4 +1,4 @@
-package br.com.RabbitMQ_Curso.pedidosAPI.Models;
+package br.com.RabbitMQ_Curso.pedidosAPI.models;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

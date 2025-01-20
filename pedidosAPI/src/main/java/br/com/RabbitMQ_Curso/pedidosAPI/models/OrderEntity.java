@@ -1,6 +1,7 @@
-package br.com.RabbitMQ_Curso.pedidosAPI.Models;
+package br.com.RabbitMQ_Curso.pedidosAPI.models;
 
-import com.example.PedidosAPI.Models.enums.Status;
+
+import br.com.RabbitMQ_Curso.pedidosAPI.models.enums.Status;
 import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.Data;
 
