@@ -13,10 +13,10 @@ import java.util.List;
 public class OrderEntity {
     private Long id;
     private String customer;
-    private List<OrderedItemsEntity> orderedItems = new ArrayList<>();
+    private List<OrderedItemsEntity> Items = new ArrayList<>();
     private Double totalValue;
     private String emailNotification;
-    private Status status;
+    private Status status = Status.Processing;
     @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss")
-    private LocalDateTime dateHour;
+    private LocalDateTime dateHour = LocalDateTime.now();
 }
