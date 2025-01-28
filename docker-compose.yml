@@ -5,8 +5,8 @@ services:
     image: rabbitmq:3.10.5-management
     container_name: rabbitMQ
     environment:
-      RABBITMQ_DEFAULT_USER: 'rabbitmq'
-      RABBITMQ_DEFAULT_PASS: 'rabbitmq'
+      RABBITMQ_DEFAULT_USER: 'castilhoRBMQ'
+      RABBITMQ_DEFAULT_PASS: 'castilhoRBMQ'
     ports:
       - '15672:15672'
       - '5672:5672'
